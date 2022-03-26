@@ -1,0 +1,28 @@
+<%- include("partials/header")-%>
+
+<h1><b>Home</b></h1>
+<p><%=StartingContent%></p>
+<div class="Pubblisssh">
+
+<img src="https://media0.giphy.com/media/lQDn8MhvOA2rAh7c45/giphy.gif?cid=790b76117e929148ce6b044e13d15307f32b8eebaac4aa78&rid=giphy.gif&ct=g" alt="Blogs">
+<br>
+<a class="BUTTON_TNU btn-primary " href="/login" role="button">Puplish Post Now</a>
+</div>
+
+<% Posts.forEach(function(post){ %>
+
+
+
+  <h1><%=post.title%> </h1>
+  <p>
+
+  <%=post.content.substring(0, 100) + " ..."%>
+  <a href="/posts/<%=post.title%>">Read More</a>
+  </p>
+  <p class="innn">by <%=Postby%></p>
+<hr>
+
+  <% }) %>
+
+
+<%-include("partials/footer")-%>

@@ -1,0 +1,22 @@
+<%- include("partials/header")-%>
+
+<h1><b>Compose</b></h1>
+
+<form action="/compose" method="post">
+  <div class="mb-3">
+    <label >Title</label>
+    <input type="text" name="title" class="form-control" >
+
+  </div>
+  <div class="mb-3">
+    <label >Post</label>
+    <textarea class="form-control" name="post" rows="8" cols="80"></textarea>
+  </div>
+  <button type="submit" class="BUTTON_TNU  btn_1">Publish</button>
+</form>
+
+<form  action="/delete" method="post">
+<button class="BUTTON_TNU  btn_2" type="submit" name="button">Delete All News</button>
+</form>
+
+<%-include("partials/footer")-%>

@@ -1,0 +1,241 @@
+
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
+
+.footer-padding {
+	padding-bottom: 60px;
+}
+img{
+
+  width: 500px;
+  height: 300px
+}
+
+.loginBad{
+  padding: 0;
+}
+.aboutsocailContainer{
+  text-align: center;
+  padding-top: 200px;
+}
+
+.aboutsocailContainer a {
+	border: 2px solid #DDDDDD;
+	border-radius: 50%;
+	display:inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 70px;
+	width: 70px;
+  color:Black;
+  text-decoration: none !important;
+}
+
+.footer {
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #1abc9c;
+}
+hr {
+    border: none;
+    border-top: 3px double #1abc9c;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    color: #1abc9c;
+
+}
+
+hr:after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 12px;
+  color: #fff;
+}
+
+.btn{
+  margin-top: 20px;
+}
+h1{
+   text-transform: capitalize;
+   font-family: fantasy;
+
+
+}
+.innn{
+
+  margin-left: 500px;
+}
+p{
+  font-family:cursive;
+  font-size: 20px;
+  padding: 20px;
+
+}
+.BUTTON_TNU {
+   background: #080808;
+   background-image: -webkit-linear-gradient(top, #080808, #000000);
+   background-image: -moz-linear-gradient(top, #080808, #000000);
+   background-image: -ms-linear-gradient(top, #080808, #000000);
+   background-image: -o-linear-gradient(top, #080808, #000000);
+   background-image: -webkit-gradient(to bottom, #080808, #000000);
+   -webkit-border-radius: 31px;
+   -moz-border-radius: 31px;
+   border-radius: 31px;
+   color: #FFFFFF;
+   font-family: Cursive ;
+   font-size: 20px;
+   font-weight: 600;
+   padding: 10px;
+   -webkit-box-shadow: 1px 1px 4px 0 #000000;
+   -moz-box-shadow: 1px 1px 4px 0 #000000;
+   box-shadow: 1px 1px 4px 0 #000000;
+   text-shadow: 1px 1px 4px #000000;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_TNU:hover {
+   border: solid #FFFFFF 1px;
+   background: #FFFFFF;
+   background-image: -webkit-linear-gradient(top, #FFFFFF, #FFFFFF);
+   background-image: -moz-linear-gradient(top, #FFFFFF, #FFFFFF);
+   background-image: -ms-linear-gradient(top, #FFFFFF, #FFFFFF);
+   background-image: -o-linear-gradient(top, #FFFFFF, #FFFFFF);
+   background-image: -webkit-gradient(to bottom, #FFFFFF, #FFFFFF);
+   -webkit-border-radius: 35px;
+   -moz-border-radius: 35px;
+   border-radius: 35px;
+   text-decoration: none;
+}
+.btn_1{
+   margin-left: 540px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.btn_2{
+  margin-left: 504px;
+}
+
+.social-container {
+	margin: 20px 0;
+}
+
+.social-container a {
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
+	display:inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 40px;
+	width: 40px;
+  color:Black;
+  text-decoration: none !important;
+}
+
+
+.Pubblisssh{
+  text-align: center;
+}
+.btn_3{
+  margin-top: 20px;
+  border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #FF4B2B;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+.btn_3:hover{
+  background-color: #FF5200;
+  cursor: pointer;
+}
+.Container-All-Page{
+  font-family: sans-serif;
+  margin-left:500px ;
+  margin-top: 200px;
+text-align: center;
+background-color: #fff;
+	border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 800px;
+	max-width: 100%;
+	min-height: 480px;
+}
+
+.SignText{
+  margin-top: 100px;
+}
+.SignUpContainer{
+
+
+}
+.SignInContainer{
+
+}
+
+.Text_1{
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height:30px;
+  width: 200px;
+
+
+
+}
+.Text_2{
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height:30px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+.LabelText a{
+
+  color:Black;
+  text-decoration: none !important;
+}
